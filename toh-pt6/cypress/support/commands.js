@@ -25,7 +25,7 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 
-Cypress.Commands.add('loginWith', ({ email, password }) =>
+/* Cypress.Commands.add('loginWith', ({ email, password }) =>
 
   cy.visit('/login')
 
@@ -41,4 +41,4 @@ Cypress.Commands.add('loginWith', ({ email, password }) =>
 
     .click()
 
-)
+) */

@@ -1,8 +1,9 @@
 import {Given, And, Then} from "cypress-cucumber-preprocessor/steps";
-import { createYield } from "typescript";
+
+var url = "localhost:4200";
 
 Given('I visit exTest site', () => {
-  cy.visit('https://localhost:4200')
+  cy.visit(url)
 })
 
 Given('I click Heroes Link', () => {

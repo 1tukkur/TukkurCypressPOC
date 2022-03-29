@@ -4,7 +4,8 @@
   "description": "Example project from an angular.io guide.",
   "license": "MIT",
   "cypress-cucumber-preprocessor" : {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/integration/exTest.feature"
   },
   "scripts": {
     "ng": "ng",
